@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "com.cne.compendio"		versionCode="1.0"		version   = "1.0">		<name>Compendio Digital Electoral</name>		<description>Compendio Electoral Digital 2015 
-Version 1.0 Off Line
+<?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "com.cne.compendio"		versionCode="2.0"		version   = "2.0">		<name>Compendio Digital Electoral</name>		<description>Compendio Electoral Digital 2015 
+Version 2.0 Off Line
 Cámara Nacional Electoral
 Poder Judicial de la Nación
 República Argentina		</description>		<author href="http://www.electoral.gov.ar" email="gerardo.fabiano@pjn.gov.ar">Gerardo Fabiano		</author>		<preference name="permissions" value="none"/>
