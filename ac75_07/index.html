@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title>Microsoft Word - Ac 75 - 07.doc</title>
+<title>Ac 75 - 07</title>
 <link rel="stylesheet" type="text/css" href="assets/IDRViewer.css">
 <script type="text/javascript">
 var isIE = false;
@@ -20,8 +20,8 @@ function idrLoad() {
 <!-- Background pattern courtesy of http://subtlepatterns.com/grey-washed-wall/ -->
 <body style="background:url('assets/bg.png') repeat scroll 0 0 transparent;"><div id="left">
 <div id="leftNav">
-	<div id="btnThumbnails" onclick="IDRViewer.toggleOutlines(false)" title="Thumbnails" class="navBtn inactive"></div>
-	<div id="btnOutlines" onclick="IDRViewer.toggleOutlines(true)" title="Bookmarks" class="navBtn inactive"></div>
+	<div id="btnThumbnails" onclick="IDRViewer.toggleOutlines(false)" title="Miniaturas" class="navBtn inactive"></div>
+	<div id="btnOutlines" onclick="IDRViewer.toggleOutlines(true)" title="Marcador" class="navBtn inactive"></div>
 </div>
 <div id="leftContent">
 	<div id="thumbnailPanel"></div>
@@ -34,28 +34,27 @@ function idrLoad() {
 <div id="mainNav">
 	<div id="btnSideToggle" onclick="IDRViewer.toggleThumbnails();" class="navBtn"><div title="Sidebar"></div></div>
 	
-	<div id="btnPrev" title="Previous Page" onclick="IDRViewer.prev()" class="navBtn"></div>
+	<div id="btnPrev" title="Pagina Anterior" onclick="IDRViewer.prev()" class="navBtn"></div>
 	<select id="goBtn" onchange="IDRViewer.goToPage(0)">
 
 	</select>
 	<span id="pgCount"></span>
-	<div id="btnNext" title="Next Page" onclick="IDRViewer.next()" class="navBtn"></div>
+	<div id="btnNext" title="Pagina Siguiente" onclick="IDRViewer.next()" class="navBtn"></div>
 	
-	<div id="btnSelect" title="Select" onclick="IDRViewer.setSelectMode(0)" class="navBtn"></div>
-	<div id="btnMove" title="Pan" onclick="IDRViewer.setSelectMode(1)" class="navBtn"></div>
+	<div id="btnSelect" title="Seleccionar" onclick="IDRViewer.setSelectMode(0)" class="navBtn"></div>
+	<div id="btnMove" title="Mover" onclick="IDRViewer.setSelectMode(1)" class="navBtn"></div>
 
-	<div id="btnZoomOut" title="Zoom Out" onclick="IDRViewer.zoomOut()" class="navBtn"></div>
+	<div id="btnZoomOut" title="Disminuir Zoom" onclick="IDRViewer.zoomOut()" class="navBtn"></div>
 	<select id="zoomBtn" onchange="IDRViewer.zoomUpdate()">
 		<option value="0">100%</option>
-		<option value="1">Actual Size</option>
-		<option value="2">Fit Width</option>
-		<option value="3">Fit Height</option>
-		<option value="4">Fit Page</option>
-		<option value="5">Automatic</option>
-
-	</select>
-	<div id="btnZoomIn" title="Zoom In" onclick="IDRViewer.zoomIn()" class="navBtn"></div>
-	<div id="btnFullscreen" title="Fullscreen" onclick="IDRViewer.toggleFullScreen();" class="navBtn closed"></div>
+		<option value="1">Tamano Real</option>
+		<option value="2">Ajustar Ancho</option>
+		<option value="3">Ajustar Altura</option>
+		<option value="4">Ajustar a la Pagina</option>
+		<option value="5">Automatico</option>	
+</select>
+	<div id="btnZoomIn" title="Aumentar Zoom" onclick="IDRViewer.zoomIn()" class="navBtn"></div>
+	<div id="btnFullscreen" title="Pantalla Completa" onclick="IDRViewer.toggleFullScreen();" class="navBtn closed"></div>
 </div>
 
 <div id="mainContent">
@@ -65,6 +64,9 @@ function idrLoad() {
 </div>
 </div>
 </div>
-<script type="text/javascript">idrLoad();</script>	</body>
+<script type="text/javascript">idrLoad();</script>
+<a href="../index.html" title="Volver al Inicio"><img border="0" width="50" height="51" src="../images/volver.png" style="position: fixed; bottom: 205px; right: 0px;" /></a>
+<a href="javascript:history.back()" title="Atras"><img border="0" width="50" height="51" src="../images/atras.png" style="position: fixed; bottom: 150px; right: 0px;" /></a>
+</body>
 </html>
 
